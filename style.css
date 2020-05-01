@@ -1,0 +1,22 @@
+body{
+  margin:0;
+}
+#svgContainer{}
+svg{
+  display: block;
+  background: beige;
+
+  margin: 0 auto;
+}
+circle{
+  fill: brown;
+}
+line{
+  stroke: brown;
+}
+line{
+  transition: all .3s;
+}
+line.draw{
+  stroke-dashoffset: 0 !important;
+}
